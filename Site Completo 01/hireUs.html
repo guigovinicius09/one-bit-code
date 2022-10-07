@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>SpaceX Hire Us</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="./index.html">
+            <img src="./style/images/logo.png" alt="" />
+          </a>
+          <a href="./ourShips.html">Our Ships</a> |
+          <a href="./hireUs.html">Hire Us</a>
+        </div>
+      </nav>
+    </header>
+    <hr>
+    <section>
+      <h2>Hire us now!</h2>
+      <p class="hire">
+        Leave a message to request one of our services and we will get back to
+        you as soon as possible.
+      </p>
+      <br />
+      <br />
+      <div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required /> -
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+        </form>
+      </div>
+      <br />
+      <br />
+      <div>
+        <form action="">
+          <label for="ships">Spaceship:</label>
+          <select name="ships" id="ships">
+            <option value="none">-none-</option>
+            <option value="falcon9">Falcon 9</option>
+            <option value="falconHeavy">Falcon Heavy</option>
+            <option value="StarShip">Starship</option>
+          </select>
+          |
+          <label for="service">Service:</label>
+          <input type="search" name="service" id="service" list="services" />
+          <datalist id="services">
+            <option value="Lorem1"></option>
+            <option value="Lorem2"></option>
+            <option value="Lorem3"></option>
+            <option value="Lorem4"></option>
+        </form>
+      </div>
+      <br />
+      <br />
+      <div>
+        <input type="submit" value="Send Message">
+      </div>
+    </section>
+  </body>
+</html>
